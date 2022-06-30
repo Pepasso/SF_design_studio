@@ -4,4 +4,4 @@
 
 [SF_design_studio](https://pepasso.github.io/SF_design_studio/public/)
 
-![Иллюстрация к проекту](https://pepasso.github.io/SF_design_studio/studio-deesign.jpg)
+![Иллюстрация к проекту](https://github.com/Pepasso/SF_design_studio/blob/main/studio-deesign.jpg)
