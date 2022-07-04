@@ -1162,6 +1162,15 @@ h6 {
 
 .repair__price {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   top: 87.94%;
   right: 13%;
   width: 228px;
@@ -1502,10 +1511,14 @@ body {
   min-height: 100vh;
 }
 
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0;
+}
+
 .wrapper {
   width: 100%;
   min-height: 100%;
-  overflow: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2116,6 +2129,10 @@ body {
     padding: 0px 0px 88px 0px;
   }
 
+  .checkbox-online__form {
+    width: 340px;
+  }
+
   .checkbox-online__text {
     color: #ffffff;
   }
@@ -2290,12 +2307,17 @@ body {
     width: 240px;
   }
 
+  .checkbox-online__form {
+    width: 240px;
+  }
+
   .repair__card {
     margin: 0px 0px 230px 0px;
   }
 
   .repair__price {
     width: 190px;
+    top: 91.94%;
   }
 
   .card-repair__desc {
