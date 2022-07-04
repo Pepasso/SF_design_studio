@@ -2317,11 +2317,15 @@ body::-webkit-scrollbar {
 
   .repair__price {
     width: 190px;
-    top: 91.94%;
+    top: 89.94%;
   }
 
   .card-repair__desc {
     width: 252px;
+  }
+
+  .card-repair__desc h3 {
+    margin: 12px 68px 13px 34px;
   }
 
   .first-card {
